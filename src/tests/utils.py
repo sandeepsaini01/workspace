@@ -1,6 +1,6 @@
 import random
-from app.schemas.user import UserCreate
-from app.schemas.magazine import MagazineCreate
+from app.schemas import UserCreate
+from app.schemas import Magazine as MagazineCreate
 
 
 def create_user(client, base_username: str, base_email: str, password: str) -> dict:

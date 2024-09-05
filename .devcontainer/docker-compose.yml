@@ -20,6 +20,7 @@ services:
 
     environment:
       DATABASE_URL: postgresql+psycopg2://app_user:app_password@db/app
+      JWT_SECRET_KEY: "sainisandeep"
 
   db:
     image: postgres:latest
